@@ -123,7 +123,8 @@ const useStyles = makeLocalChonkyStyles((theme) => ({
         whiteSpace: 'nowrap',
         overflow: 'hidden',
         flex: '0 1 150px',
-        padding: [2, 8],
+        padding: [2, 2, 8, 0],
         zIndex: 20,
+        textAlign: 'right'
     },
 }));
